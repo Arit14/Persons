@@ -12,14 +12,14 @@ public class User {
     private String name;
     private String dept;
     private Integer salary;
-    private Date time;
+    //private Date time;
 
-    public User(Integer id, String name, String dept, Integer salary, Date time) {
+    public User(Integer id, String name, String dept, Integer salary) {
         this.id = id;
         this.name = name;
         this.dept = dept;
         this.salary = salary;
-        this.time = time;
+       // this.time = time;
     }
 
     public User() {
@@ -68,11 +68,11 @@ public class User {
         return sb.toString();
     }
 
-    public Date getTime() {
+   /* public Date getTime() {
         return time;
     }
 
     public void setTime(Date time) {
         this.time = time;
-    }
+    }*/
 }
