@@ -58,6 +58,11 @@
 			<artifactId>spring-batch-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+           <groupId>com.spotify</groupId>
+           <artifactId>docker-maven-plugin</artifactId>
+           <version>1.0.0</version>
+        </dependency>
 	</dependencies>
 
 	<build>
@@ -67,6 +72,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>springbatch-assignment1</finalName>
+		
 	</build>
 
 
